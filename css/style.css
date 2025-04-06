@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    font-size: 62.5%;
+  }
+
+  body{
+    font-size: 1.6rem;
+  }
+  
+  img{
+    width:22rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    height: 7rem;
+    display: flex;
+    margin: 0;
+  }
+
+  .nav{
+    background-color:#ffffff;
+    display: flex;
+    height:8rem; 
+    justify-content: space-around;   
+  }
+  
+  .flex-container{
+    display: flex;
+    font-size: 4rem;
+    margin:0rem;
+    list-style: none;
+    padding: 0;
+  }
+  .flex-item{
+    margin: 2rem;
+  
+  }
+  .flex-item-a{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  .flex-item-person{
+    margin:0rem;
+  }
+  .world{
+    font-size: 2rem;
+    border-left: 2rem;
+  }
+  .vertical{
+    border-left: 2.5px solid #eaeaea;
+    height: 4rem;
+    margin-top: 3rem;
+  }
+ .person {
+    font-size: 5rem;
+  }
+ .search{
+    font-size: 5rem;
+  }
