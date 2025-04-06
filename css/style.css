@@ -8,9 +8,10 @@ html {
 
   body{
     font-size: 1.6rem;
+    height: 600rem;
   }
   
-  img{
+  .logo-img{
     width:22rem;
     padding-left: 4rem;
     padding-top: 2rem;
@@ -26,37 +27,65 @@ html {
     justify-content: space-around;   
   }
   
-  .flex-container{
+  .nav-flex-container{
     display: flex;
+    flex-direction: row;
     font-size: 4rem;
-    margin:0rem;
+    margin:0;
     list-style: none;
     padding: 0;
+    justify-content: space-around;
   }
-  .flex-item{
+  .nav-flex-item{
     margin: 2rem;
   
   }
-  .flex-item-a{
+  .nav-flex-item-a{
     margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 2rem;
+    justify-content: space-around;
   }
-  .flex-item-person{
+  .bi{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .nav-flex-item-person{
     margin:0rem;
   }
   .world{
     font-size: 2rem;
-    border-left: 2rem;
+    
   }
   .vertical{
     border-left: 2.5px solid #eaeaea;
     height: 4rem;
     margin-top: 3rem;
+    margin-left: 5px    ;
   }
  .person {
     font-size: 5rem;
   }
  .search{
     font-size: 5rem;
+  }
+
+  .img1{
+    height: auto;
+    width: 128rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .options{
+    display: flex ;
+    font-size: 3rem;
+    list-style: none;
+    justify-content: space-around;
+  }
+  .option{
+    margin: 3rem;
+    width: 11rem;;
+    height: 11rem;
+   
   }
