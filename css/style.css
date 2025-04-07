@@ -12,10 +12,10 @@ html {
   }
   
   .logo-img{
-    width:22rem;
-    padding-left: 4rem;
-    padding-top: 2rem;
-    height: 7rem;
+    width:18rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    height: 5rem;
     display: flex;
     margin: 0;
   }
@@ -23,30 +23,31 @@ html {
   .nav{
     background-color:#ffffff;
     display: flex;
-    height:8rem; 
+    height: 3rem; 
     justify-content: space-around;   
   }
   
   .nav-flex-container{
     display: flex;
     flex-direction: row;
-    font-size: 4rem;
+    font-size: 3rem;;
     margin:0;
     list-style: none;
     padding: 0;
     justify-content: space-around;
   }
   .nav-flex-item{
-    margin: 2rem;
+    margin-top: 5px;
+    margin-left: 4rem;
   
   }
   .nav-flex-item-a{
-    margin-top: 3rem;
-    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
     margin-right: 2rem;
     justify-content: space-around;
   }
-  .bi{
+  .nav-flex-item-a-bi{
     display: flex;
     flex-direction: row-reverse;
   }
@@ -60,7 +61,7 @@ html {
   .vertical{
     border-left: 2.5px solid #eaeaea;
     height: 4rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 5px    ;
   }
  .person {
@@ -68,18 +69,20 @@ html {
   }
  .search{
     font-size: 5rem;
+    
   }
 
   .img1{
     height: auto;
-    width: 128rem;
+    margin-top: 3rem;
+    width: 127rem;
     display: flex;
     justify-content: space-around;
   }
 
   .options{
     display: flex ;
-    font-size: 3rem;
+    font-size: 1rem;
     list-style: none;
     justify-content: space-around;
   }
@@ -88,4 +91,11 @@ html {
     width: 11rem;;
     height: 11rem;
    
+  }
+  .subtitulo h1{
+    display: flex;
+    font-size: 4rem;;
+    margin:3rem;
+    justify-content: center;
+    color: #333333;
   }
