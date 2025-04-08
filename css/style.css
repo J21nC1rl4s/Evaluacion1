@@ -110,8 +110,10 @@ html {
   .camaras{
     display: flex;
     margin: 0rem;
-    margin-left: 4rem;
-    padding-right: 4rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-right: 0rem;
+    border-right: 3rem;
 
   }
   
@@ -125,6 +127,7 @@ html {
   .text{
     display: flex;
     font-size: 3rem;
+    margin-right: 3rem;
     flex-direction: row-reverse;
   }
   .text h2{
@@ -132,20 +135,55 @@ html {
   }
   .arrow{
     font-size: 3rem;
+    margin-right: 3rem;
+  }
+
+  .news1{
+    display: flex;
+    padding-left: 1rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+   
   }
 
   .container3{
-    display: flex;
-    margin:1rem;
-    padding: 0rem;
+    padding-left: 2rem;
+    margin: 0rem;
   }
 
   .new1{
     display: flex;
-    width: 65rem;
+    width: 80rem;
   }
 
   .new2{
     display: flex;
-    width: 15rem;
+    flex-direction: row;
+    width: 35rem;
+    height: 35rem;
+    margin-left: 1rem;
   }
+
+  .news2{
+    display: flex;
+    padding-left: 3rem;
+    
+  }
+
+  .new3{
+    display: flex;
+    width: 38rem;
+  }
+  .new4{
+    display: flex;
+    width: 38rem;
+    margin-left: 4rem;
+  }
+  .new5{
+    display: flex;
+    flex-direction: row;
+    width: 35rem;
+    height: 35rem;
+    margin-left: 5rem;
+  }
+
